@@ -5,7 +5,7 @@
 # minuto serán ignoradas). Para realizar este
 # programa se debe crear el archivo s_to_m.rb.
 
-seconds = [60, 60, 60, 60, 60, 60]
+seconds = [100, 50, 1000, 5000, 1000, 500]
 
 #decidimos hacer un metodo para solo un dato y no el array completo
 def to_min(data)
@@ -23,5 +23,5 @@ num.times do |i|
     # pusheamos a minutes_array los resultados de segundos a minutos
     minutes_array << to_min(seconds[i])
 end
-
-print minutes_array.sum
+print "suma en minutos"
+print minutes_array.sum  
